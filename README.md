@@ -1,2 +1,2 @@
 # template-node-application-express
-template node aplication express
+template node application express
