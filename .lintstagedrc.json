@@ -1,0 +1,3 @@
+{
+	"./src/**/*.{ts, json}": ["pnpm fix", "pnpm test"]
+}
