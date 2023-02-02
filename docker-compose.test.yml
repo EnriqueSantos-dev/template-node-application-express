@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  db_test:
+    image: postgres:alpine
+    container_name: app_db_test
+    env_file:
+      - ./.env.testing
+    ports:
+      - "54320:5432"
